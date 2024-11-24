@@ -1,4 +1,5 @@
 *{
+
     padding: 0;
     margin: 0;
 }
@@ -6,6 +7,7 @@ h1{
     padding: 20px;
 }
 h4{
+
     text-align: left;
     margin-left:   10px;
     padding: 0.5rem;
@@ -13,12 +15,14 @@ h4{
 }
 
 p{
+
     color: rgb(52, 47, 53);
     text-align: left;
     padding: 5px;
 }
 
 body{
+
     height: 100vh;
     font-family: monospace;
     text-align: center;
@@ -29,12 +33,17 @@ body{
 }
 
 main{
+
     width: 80%;
     height: auto;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+
+    
 }
 #container{
+    
+    
     width: 70%;
     height: auto;
     background-color:  rgb(179, 179, 179);
@@ -44,20 +53,24 @@ main{
     border-right: 2px solid rgb(248, 131, 224);
     border-bottom: 2px solid rgb(248, 131, 224);
     box-shadow: 0px 0px 7px -2px rgb(255, 0, 238);
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 #header{
+    
     background-color: rgb(140, 58, 138);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     width: 100%;
     height: auto;
+
 }
 
 #list{
+
     display: flex;
     padding: 10px;
     gap: 18px;
@@ -67,6 +80,7 @@ main{
 }
 .section-comments{
     width: 30%;
+   
 }
 input{
     padding-left: 8px;
