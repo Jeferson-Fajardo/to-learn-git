@@ -1,0 +1,94 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding: 20px;
+}
+h4{
+
+    text-align: left;
+    margin-left:   10px;
+    padding: 0.5rem;
+    color: rgb(18, 9, 11);
+}
+
+p{
+
+    color: rgb(52, 47, 53);
+    text-align: left;
+    padding: 5px;
+}
+
+body{
+
+    height: 100vh;
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(117, 117, 117);
+}
+
+main{
+
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+#container{
+    
+    
+    width: 70%;
+    height: 400px;
+    background-color:  rgb(179, 179, 179);
+    border-radius: 5px;
+    border-top: 2px solid rgb(248, 131, 224);
+    border-left: 2px solid rgb(248, 131, 224);
+    border-right: 2px solid rgb(248, 131, 224);
+    box-shadow: 0px 0px 7px -2px rgb(255, 0, 238);
+    
+
+}
+
+#header{
+    
+    background-color: rgb(140, 58, 138);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+    height: auto;
+
+}
+
+#list{
+
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    gap: 18px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    justify-content: space-between;
+}
+.section-comments{
+    width: 30%;
+   
+}
+input{
+    padding-left: 8px;
+    padding-right: 5px;
+}
+.title-comments{
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.content{
+    padding-right: 10px;
+    padding-left: 10px;
+}
